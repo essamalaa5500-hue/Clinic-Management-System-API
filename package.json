@@ -1,0 +1,31 @@
+{
+  "name": "clinic-management-system-api",
+  "version": "1.0.0",
+  "description": "Clinic Management System REST API built with Node.js, Express and MongoDB.",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^8.3.0",
+    "joi": "^18.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "nodemailer": "^9.0.3",
+    "nodemon": "^3.1.14",
+    "router": "^2.2.0",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
