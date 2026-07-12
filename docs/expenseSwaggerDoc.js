@@ -7,7 +7,7 @@
 
 /**
  * @swagger
- * /api/expenses:
+ * /expenses:
  *   post:
  *     summary: Create a new expense
  *     tags: [Expenses]
@@ -63,7 +63,7 @@
 
 /**
  * @swagger
- * /api/expenses:
+ * /expenses:
  *   get:
  *     summary: Get all expenses
  *     tags: [Expenses]
@@ -108,7 +108,7 @@
 
 /**
  * @swagger
- * /api/expenses/{id}:
+ * /expenses/{id}:
  *   get:
  *     summary: Get expense by id
  *     tags: [Expenses]
@@ -129,7 +129,7 @@
 
 /**
  * @swagger
- * /api/expenses/{id}:
+ * /expenses/{id}:
  *   patch:
  *     summary: Update expense
  *     tags: [Expenses]
@@ -183,7 +183,7 @@
 
 /**
  * @swagger
- * /api/expenses/{id}:
+ * /expenses/{id}:
  *   delete:
  *     summary: Delete expense
  *     tags: [Expenses]
@@ -204,7 +204,7 @@
 
 /**
  * @swagger
- * /api/expenses/statistics:
+ * /expenses/statistics:
  *   get:
  *     summary: Get expense statistics
  *     tags: [Expenses]
@@ -217,7 +217,7 @@
 
 /**
  * @swagger
- * /api/expenses/per-month:
+ * /expenses/per-month:
  *   get:
  *     summary: Get monthly expenses
  *     tags: [Expenses]
@@ -236,7 +236,7 @@
 
 /**
  * @swagger
- * /api/expenses/categories:
+ * /expenses/categories:
  *   get:
  *     summary: Get expenses grouped by category
  *     tags: [Expenses]

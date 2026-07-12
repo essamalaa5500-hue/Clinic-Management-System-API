@@ -1,6 +1,6 @@
 /**
  * @swagger
- * /api/users/create:
+ * /users/create:
  *   post:
  *     summary: Create a new user
  *     tags: [Users]
@@ -42,7 +42,7 @@
  */
 /**
  * @swagger
- * /api/users/me:
+ * /users/me:
  *   get:
  *     summary: Get current logged in user
  *     tags: [Users]
@@ -56,7 +56,7 @@
  */
 /**
  * @swagger
- * /api/users:
+ * /users:
  *   get:
  *     summary: Get all users
  *     tags: [Users]
@@ -77,7 +77,7 @@
  */
 /**
  * @swagger
- * /api/users/{id}:
+ * /users/{id}:
  *   get:
  *     summary: Get user by id
  *     tags: [Users]
@@ -97,7 +97,7 @@
  */
 /**
  * @swagger
- * /api/users/{id}:
+ * /users/{id}:
  *   patch:
  *     summary: Update user
  *     tags: [Users]
@@ -131,7 +131,7 @@
  */
 /**
  * @swagger
- * /api/users/alldoctors:
+ * /users/alldoctors:
  *   get:
  *     summary: Get all doctors
  *     tags: [Users]
@@ -143,7 +143,7 @@
  */
 /**
  * @swagger
- * /api/users/doctor/{id}:
+ * /users/doctor/{id}:
  *   get:
  *     summary: Get doctor by id
  *     tags: [Users]
@@ -161,7 +161,7 @@
  */
 /**
  * @swagger
- * /api/users/allReceptionists:
+ * /users/allReceptionists:
  *   get:
  *     summary: Get all receptionists
  *     tags: [Users]
@@ -173,7 +173,7 @@
  */
 /**
  * @swagger
- * /api/users/receptionist/{id}:
+ * /users/receptionist/{id}:
  *   get:
  *     summary: Get receptionist by id
  *     tags: [Users]
@@ -191,7 +191,7 @@
  */
 /**
  * @swagger
- * /api/users/profile/{id}:
+ * /users/profile/{id}:
  *   patch:
  *     summary: Update profile image
  *     tags: [Users]

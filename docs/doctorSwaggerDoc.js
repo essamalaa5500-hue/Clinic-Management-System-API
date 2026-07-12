@@ -1,16 +1,16 @@
 /**
  * @swagger
  * tags:
- *   name: Doctors
+ *   name: Doctor
  *   description: Doctor Management APIs
  */
 
 /**
  * @swagger
- * /api/doctors:
+ * /doctor:
  *   post:
  *     summary: Create a new doctor
- *     tags: [Doctors]
+ *     tags: [Doctor]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
@@ -73,10 +73,10 @@
 
 /**
  * @swagger
- * /api/doctors:
+ * /doctor:
  *   get:
  *     summary: Get all doctors
- *     tags: [Doctors]
+ *     tags: [Doctor]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -104,10 +104,10 @@
 
 /**
  * @swagger
- * /api/doctors/{id}:
+ * /doctor/{id}:
  *   get:
  *     summary: Get doctor by id
- *     tags: [Doctors]
+ *     tags: [Doctor]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -125,10 +125,10 @@
 
 /**
  * @swagger
- * /api/doctors/{id}:
+ * /doctor/{id}:
  *   patch:
  *     summary: Update doctor
- *     tags: [Doctors]
+ *     tags: [Doctor]
  *     security:
  *       - bearerAuth: []
  *     parameters:

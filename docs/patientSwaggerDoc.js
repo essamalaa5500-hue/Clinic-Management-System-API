@@ -1,16 +1,16 @@
 /**
  * @swagger
  * tags:
- *   name: Patients
+ *   name: Patient
  *   description: Patient Management APIs
  */
 
 /**
  * @swagger
- * /api/patients:
+ * /patient:
  *   post:
  *     summary: Create a new patient
- *     tags: [Patients]
+ *     tags: [Patient]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
@@ -52,10 +52,10 @@
 
 /**
  * @swagger
- * /api/patients:
+ * /patient:
  *   get:
  *     summary: Get all patients
- *     tags: [Patients]
+ *     tags: [Patient]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -78,10 +78,10 @@
 
 /**
  * @swagger
- * /api/patients/{id}:
+ * /patient/{id}:
  *   get:
  *     summary: Get patient by id
- *     tags: [Patients]
+ *     tags: [Patient]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -99,10 +99,10 @@
 
 /**
  * @swagger
- * /api/patients/phone/{phoneNumber}:
+ * /patient/phone/{phoneNumber}:
  *   get:
  *     summary: Get patient by phone number
- *     tags: [Patients]
+ *     tags: [Patient]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -118,10 +118,10 @@
 
 /**
  * @swagger
- * /api/patients/{id}:
+ * /patient/{id}:
  *   patch:
  *     summary: Update patient
- *     tags: [Patients]
+ *     tags: [Patient]
  *     security:
  *       - bearerAuth: []
  *     parameters:

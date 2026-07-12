@@ -1,16 +1,16 @@
 /**
  * @swagger
  * tags:
- *   name: Specializations
+ *   name: Specialization
  *   description: Specialization Management APIs
  */
 
 /**
  * @swagger
- * /api/specializations:
+ * /specialization:
  *   post:
  *     summary: Create a new specialization
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
@@ -40,10 +40,10 @@
 
 /**
  * @swagger
- * /api/specializations:
+ * /specialization:
  *   get:
  *     summary: Get all specializations
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -62,10 +62,10 @@
 
 /**
  * @swagger
- * /api/specializations/{id}:
+ * /specialization/{id}:
  *   get:
  *     summary: Get specialization by id
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -83,10 +83,10 @@
 
 /**
  * @swagger
- * /api/specializations/{id}:
+ * /specialization/{id}:
  *   patch:
  *     summary: Update specialization
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -117,10 +117,10 @@
 
 /**
  * @swagger
- * /api/specializations/{id}/doctors:
+ * /specialization/{id}/doctors:
  *   get:
  *     summary: Get all doctors in a specialization
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -138,10 +138,10 @@
 
 /**
  * @swagger
- * /api/specializations/{id}:
+ * /specialization/{id}:
  *   delete:
  *     summary: Delete specialization
- *     tags: [Specializations]
+ *     tags: [Specialization]
  *     security:
  *       - bearerAuth: []
  *     parameters:

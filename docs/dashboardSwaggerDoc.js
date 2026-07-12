@@ -7,7 +7,7 @@
 
 /**
  * @swagger
- * /api/dashboard:
+ * /dashboard:
  *   get:
  *     summary: Get dashboard overview
  *     description: Returns dashboard cards and revenue statistics.
@@ -21,7 +21,7 @@
 
 /**
  * @swagger
- * /api/dashboard/appointments-per-month:
+ * /dashboard/appointments-per-month:
  *   get:
  *     summary: Get appointments and revenue per month
  *     tags: [Dashboard]
@@ -42,7 +42,7 @@
 
 /**
  * @swagger
- * /api/dashboard/top-doctors:
+ * /dashboard/top-doctors:
  *   get:
  *     summary: Get top 5 doctors
  *     description: Returns the doctors with the highest completed appointments and revenue.
@@ -63,7 +63,7 @@
 
 /**
  * @swagger
- * /api/dashboard/top-patients:
+ * /dashboard/top-patients:
  *   get:
  *     summary: Get top 5 patients
  *     description: Returns patients with the highest number of completed appointments.
@@ -84,7 +84,7 @@
 
 /**
  * @swagger
- * /api/dashboard/doctor-performance:
+ * /dashboard/doctor-performance:
  *   get:
  *     summary: Get doctor performance statistics
  *     description: Returns appointment statistics, revenue and completion rate for each doctor.

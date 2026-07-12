@@ -1,16 +1,16 @@
 /**
  * @swagger
  * tags:
- *   name: Appointments
+ *   name: Appointment
  *   description: Appointment Management APIs
  */
 
 /**
  * @swagger
- * /api/appointments:
+ * /appointment:
  *   post:
  *     summary: Create a new appointment
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
@@ -56,10 +56,10 @@
 
 /**
  * @swagger
- * /api/appointments:
+ * /appointment:
  *   get:
  *     summary: Get appointments with filters
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -106,10 +106,10 @@
 
 /**
  * @swagger
- * /api/appointments/all:
+ * /appointment/all:
  *   get:
  *     summary: Get all appointments without pagination
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     responses:
@@ -119,10 +119,10 @@
 
 /**
  * @swagger
- * /api/appointments/today:
+ * /appointment/today:
  *   get:
  *     summary: Get today's appointments
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -141,10 +141,10 @@
 
 /**
  * @swagger
- * /api/appointments/doctor/{id}:
+ * /appointment/doctor/{id}:
  *   get:
  *     summary: Get appointments by doctor
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -168,10 +168,10 @@
 
 /**
  * @swagger
- * /api/appointments/patient/{id}:
+ * /appointment/patient/{id}:
  *   get:
  *     summary: Get appointments by patient
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -195,10 +195,10 @@
 
 /**
  * @swagger
- * /api/appointments/{id}:
+ * /appointment/{id}:
  *   get:
  *     summary: Get appointment by id
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -216,10 +216,10 @@
 
 /**
  * @swagger
- * /api/appointments/{id}:
+ * /appointment/{id}:
  *   patch:
  *     summary: Update appointment
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -257,10 +257,10 @@
 
 /**
  * @swagger
- * /api/appointments/{id}/status:
+ * /appointment/{id}/status:
  *   patch:
  *     summary: Update appointment status
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:
@@ -292,10 +292,10 @@
 
 /**
  * @swagger
- * /api/appointments/{id}:
+ * /appointment/{id}:
  *   delete:
  *     summary: Delete appointment
- *     tags: [Appointments]
+ *     tags: [Appointment]
  *     security:
  *       - bearerAuth: []
  *     parameters:

@@ -7,7 +7,7 @@
 
 /**
  * @swagger
- * /api/auth/signin:
+ * /auth/signin:
  *   post:
  *     summary: Sign in
  *     tags: [Authentication]
@@ -36,7 +36,7 @@
 
 /**
  * @swagger
- * /api/auth/logout:
+ * /auth/logout:
  *   post:
  *     summary: Logout current user
  *     tags: [Authentication]
@@ -49,7 +49,7 @@
 
 /**
  * @swagger
- * /api/auth/refreshToken:
+ * /auth/refreshToken:
  *   post:
  *     summary: Refresh access token
  *     tags: [Authentication]
@@ -62,7 +62,7 @@
 
 /**
  * @swagger
- * /api/auth/forgotPassword:
+ * /auth/forgotPassword:
  *   post:
  *     summary: Send OTP to reset password
  *     tags: [Authentication]
@@ -87,7 +87,7 @@
 
 /**
  * @swagger
- * /api/auth/resetPassword:
+ * /auth/resetPassword:
  *   post:
  *     summary: Reset password using OTP
  *     tags: [Authentication]
@@ -120,7 +120,7 @@
 
 /**
  * @swagger
- * /api/auth/changePassword:
+ * /auth/changePassword:
  *   patch:
  *     summary: Change current user's password
  *     tags: [Authentication]

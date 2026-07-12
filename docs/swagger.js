@@ -20,7 +20,7 @@ const options = {
 
     servers: [
       {
-        url: "https://essam-clinic-management-system-api.bonto.run",
+        url: "https://essam-clinic-api.bonto.run",
         description: "Production Server",
       },
       {
