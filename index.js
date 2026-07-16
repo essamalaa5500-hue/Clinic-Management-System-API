@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 require("dotenv").config();
 require("./config/db");
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 3000;
 const usersRouter = require("./src/routes/users");
 const authRouter = require("./src/routes/auth");
 const patientRouter = require("./src/routes/patient");
@@ -68,4 +68,8 @@ app.use((err, req, res, next) => {
 // Start Server
 app.listen(PORT, () => {
   console.log(` Server is running on port ${PORT}`);
+});
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server is running on port ${PORT}`);
 });

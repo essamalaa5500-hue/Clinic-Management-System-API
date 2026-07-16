@@ -122,7 +122,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Clinic-Management-System-API.git
+git clone https://github.com/essamalaa5500-hue/Clinic-Management-System-API
 ```
 
 Go to the project
@@ -158,7 +158,7 @@ npm start
 Create a `.env` file in the project root.
 
 ```env
-PORT=6000
+PORT=3000
 
 MONGO_URI=
 
@@ -180,13 +180,13 @@ CLOUDINARY_API_SECRET=
 Local
 
 ```
-http://localhost:6000/api-docs
+http://localhost:3000/api-docs
 ```
 
 Production
 
 ```
-https://essam-clinic-management-system-api.bonto.run/api-docs
+https://essam-clinic-api.bonto.run/api-docs
 ```
 
 ---
