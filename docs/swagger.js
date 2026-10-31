@@ -1,6 +1,8 @@
+const path = require("path");
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 require("dotenv").config();
+
 const options = {
   definition: {
     openapi: "3.0.0",
@@ -20,8 +22,7 @@ const options = {
 
     servers: [
       {
-        url: "https://essam-clinic-api.bonto.run",
-        description: "Production Server",
+        url: "https://clinic-management-system-api-rho.vercel.app",
       },
       {
         url: "http://localhost:6000",
@@ -46,7 +47,7 @@ const options = {
     ],
   },
 
-  apis: ["./docs/*SwaggerDoc.js"],
+  apis: [path.join(__dirname, "./*SwaggerDoc.js")],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
